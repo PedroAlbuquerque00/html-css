@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    color: white;
+    font-family: 'montserrat';
+}
+
+.aula{
+    display: flex;
+    justify-content: center;
+}
+
+.playlist{
+    text-align: center;
+    margin: 40px 0;
+    font-family: 'montserrat';
+    font-weight: 600;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}

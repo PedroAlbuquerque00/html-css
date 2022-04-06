@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'DM Sans', sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+            /*
+            Sombra para dentro
+
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.5);
+            */
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+        }
+
+        footer > p{
+            margin: 0;
+        }
+
+        nav{
+            background-color: rgb(124, 124, 124);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a{
+            margin-right: 30px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(122, 122, 122);
+        }
+
+        a{
+            color: lightblue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: blue;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quos asperiores eligendi facilis nemo explicabo saepe blanditiis. Harum magni quos, modi nihil libero vero quam culpa distinctio est veritatis. Corporis!</p>
+                <aside>
+                    <p>Artigo escrito por Pedro</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo <a href="https://youtube.com/cursoemvideo" target="_blank">Curso em Video</a></p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

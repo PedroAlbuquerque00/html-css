@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    color: white;
+    font-family: 'montserrat';
+}
+
+.image1{
+    display: flex;
+    justify-content: center;
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+}

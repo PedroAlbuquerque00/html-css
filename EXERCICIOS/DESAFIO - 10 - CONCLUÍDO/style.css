@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@import url(fontes/idroid.otf);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(37, 116, 37), rgb(12, 58, 12));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 240px;
+}
+
+header > h1{
+    text-transform: uppercase;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+header > h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#navbar{
+    position: sticky;
+    top: 221px;
+    text-align: left;
+}
+
+.navbar-items{
+    display: inline-block;
+    width: 120px;
+    background-color: darkgreen;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navbar-items:hover{
+    background-color: lightgreen;
+}
+
+.navbar-a{
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.navbar-a:hover{
+    color: darkgreen;
+}
+
+main{
+    background-color: rgba(255, 228, 196, 0.637);
+}
+
+.secao{
+    margin: auto;
+    width: 850px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 20px 20px;
+}
+
+article{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#letra{
+    font-family: idroid;
+    color: darkgreen;
+    font-size: 2.4em;
+}
+
+main .secao article p{
+    text-indent: 20px;
+    font-weight: normal;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2background{
+    font-family: idroid;
+    background-image: linear-gradient(to right, rgb(176, 245, 176), white);
+    color: darkgreen;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
+
+.bugdroid{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    background-color: lightgreen;
+    text-decoration: none;
+    color: darkgreen;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+#video{
+    width: 850px;
+    height: 500px;
+    background-color: darkgreen;
+}
+
+#curso{
+    margin: 50px 0px 0px 50px;
+}
+
+#extra{
+    margin-top: 10px;
+    background-color: rgb(178, 255, 251);
+    border-radius: 10px;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.3);
+}
+
+#extra h2{
+    background-color: rgb(105, 184, 105);
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#extra p{
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+#extra li{
+    display: inline-block;
+    width: 300px;
+    padding-left: 20px;
+}
+
+#final{
+    font-weight: 600;
+    padding: 10px 15px 30px 27px;
+    text-indent: 20px;
+}
+
+#rodape{
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 15px;
+    font-family: 'DM Sans';
+}
+
+#rodape a{
+    color: lightgreen;
+    text-decoration: none;
+}
+
+#rodape a:hover{
+    color: rgb(197, 255, 197);
+}
